@@ -1,0 +1,19 @@
+Open the program called Question16_A.py
+from your device. The source code is shown
+and described briefly below.
+Before making any changes, you should save
+your working copy of the file using the format
+CandidateNumberQuestion16_A.py. For
+example, you would save the file as 123456Question16_A.py if your candidate number was
+123456.
+Enter your Examination Number in the space provided on line 2 in your Python file.
+The program below is the start of a program to check if a person is eligible for their driving
+licence. The code works by taking the user’s age as an input and checking if it meets a
+condition. 
+
+# Question 16(a)
+# Examination Number:
+print("The program")
+age = int(input("What age are you? "))
+if (age >= 17):
+    print("You are entitled to apply for a driving licence.")

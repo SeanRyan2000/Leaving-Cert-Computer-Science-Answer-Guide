@@ -1,0 +1,46 @@
+Open the program called Question16_B.py from your device.
+This file contains only two comments, on lines 1 and 2.
+Before adding any code, you should save your working copy
+of the file using the format
+ExaminationNumberQuestion16_B.py. For example, you
+would save the file as 123456Question16_B.py if your
+Examination Number was 123456.
+Enter your Examination Number in the space provided on line 2 in your Python file.
+
+
+Implement a simulation of a fruit machine in Python.
+You should use comments throughout your program to explain your code. You may
+wish to reuse some of the code you used in part (a) as part of your solution.
+
+The program should proceed according to the following sequence:
+ Initialise a list called fruits with three elements – apple, cherry and orange.
+
+ Display the initial list of fruits as shown.
+
+The initial list of fruits is:
+['apple', 'cherry', 'orange']
+ Prompt the user to enter an additional fruit, for example kiwi, pear or lemon and
+append the value entered to fruits
+Enter an additional fruit: kiwi
+
+ Display the list of four fruits, for example:
+The list of four fruits is:
+['apple', 'cherry', 'orange', 'kiwi']
+
+ Prompt the user to nominate their winning fruit which must be in the above list.
+If the user enters a fruit that is not in fruits, the program should display an
+error message and prompt the user to nominate their winning fruit again. This
+should continue as long as the winning fruit entered is not in fruits.
+
+Nominate your winning fruit: cherry
+ Display the winning fruit, as show below.
+Nominate your winning fruit: cherry
+The winning fruit you selected is cherry
+
+ Write code to select three random fruits from fruits. Compare the selected
+fruits to the winning fruit entered earlier and keep going until all three fruits
+match the winning fruit.
+
+The program should keep a count of the number of tries taken and display this
+with a “Winner” message at the end, as shown below.
+Winner after 38 tries 

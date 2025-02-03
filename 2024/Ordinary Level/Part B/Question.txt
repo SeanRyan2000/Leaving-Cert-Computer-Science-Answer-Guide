@@ -1,0 +1,20 @@
+Open the program called Question16_B.py from
+your device. This file only contains two
+comments on lines 1 and 2.
+Before making any changes, you should use the
+format CandidateNumberQuestion16_B.py to
+save your file. For example, you would save the
+file as 123456Question16_B.py if your candidate
+number was 123456.
+Enter your Examination Number in the space provided on Line 2.
+
+Implement a program that will help you to split a restaurant bill with your friends.
+You should use comments throughout your program to explain your code. You may wish to
+reuse some of the code you used in part (a) as part of your solution.
+
+Your program should do the following:
+ The program should display an output of “Split Bill Calculator” at the start.
+ The user can enter the total amount of the bill.
+ The user can enter the number of people that will be splitting the bill.
+ Divide the total amount of the bill by the number of people. The amount owed by each
+person should be printed with a suitable message.

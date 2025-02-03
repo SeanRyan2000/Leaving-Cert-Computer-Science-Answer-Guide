@@ -1,0 +1,19 @@
+Open the program called Question16_A.py from your device. The
+source code is shown below.
+Before making any changes, you should save your working copy of
+the file using the format ExaminationNumberQuestion16_A.py. For
+example, you would save the file as 123456Question16_A.py if your
+Examination Number was 123456.
+Enter your Examination Number in the space provided on line 2 in your Python file.
+The program initialises a list called fruits with three elements – apple, cherry and
+orange. Line 7 of the program is an assignment statement in which a random fruit is
+selected from the list and assigned to the variable called random_fruit_1.
+The program does not display any output.
+
+Question 16(a)
+Examination Number:
+from random import choice
+
+fruits = ['apple', 'cherry', 'orange']
+
+random_fruit_1 = choice(fruits) 
