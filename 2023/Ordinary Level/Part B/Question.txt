@@ -1,0 +1,35 @@
+Open the program called Question16_B.py from your device. This file
+only contains two comments on lines 1 and 2.
+Before making any changes, you should use the format
+CandidateNumberQuestion16_B.py to save your file. For example, you
+would save the file as 123456Question16_B.py if your candidate
+number was 123456.
+Enter your Examination Number in the space provided on Line 2.
+
+
+
+Implement a program for a temperature alert system for a baby’s room.
+You should use comments throughout your program to explain your code. You may wish to
+reuse some of the code you used in part (a) as part of your solution.
+Your program should do the following:
+
+
+ Display a message which outputs “Welcome to Temperature Alert System”.
+ Ask the user to enter a temperature value in degrees Celsius. An example of how this
+might look is shown below.
+Enter temperature value in degrees Celsius: 22
+ Use a conditional statement to output different pieces of information based on the
+temperature value that has been input by the user. See the table below for conditions
+and the outputs that should be displayed. 
+
+            Condition               |               Output
+    Temperature is less than 20     |       Too cold. Turn up heating. 
+    Temperature between 20 – 24     |       Temperature is just right. 
+    Temperature is more than 24     |       Too warm. Turn down heating. 
+
+
+
+An example output is shown below.
+Welcome to Temperature Alert System
+Enter temperature value in degrees Celsius: 22
+Temperature is just right. 

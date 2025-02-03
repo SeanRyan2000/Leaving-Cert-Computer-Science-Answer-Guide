@@ -1,0 +1,23 @@
+Open the program called Question16_A.py from your device. The
+source code is shown and described briefly below.
+Before making any changes, you should save your working copy of
+the file using the format CandidateNumberQuestion16_A.py. For
+example, you would save the file as 123456Question16_A.py if your
+candidate number was 123456.
+Enter your Examination Number in the space provided on line 2 in
+your Python file.
+The program below produces a times table for a specific number. A times table is a
+multiplication table in a list that shows the multiples of a specific number. The code below
+works by using a for loop to multiply the number seven by zero, then by one, then by two
+until the loop repeats ten times in total.
+    # Question 16(a)
+    # Examination Number:
+
+    print("Multiplication program")
+
+    number = 7
+
+    print("Multiplications of ", number)
+
+    for i in rang(0):
+        print(number*i
