@@ -1,0 +1,56 @@
+Open the program called Question16_B.py from your device. This file contains only
+two comments, on lines 1 and 2.
+Before adding any code, you should save your working copy of the file using the
+format ExaminationNumberQuestion16_B.py. For example, you would save the file as
+123456Question16_B.py if your Examination Number was 123456.
+Enter your Examination Number in the space provided on line 2 in your Python file.
+Implement a number guessing game in Python. The game requires the user to guess a
+random number between 1 and 100 and they are awarded points based on how close
+they get to the number.
+You should use comments throughout your program to explain your code. You may
+wish to reuse some of the code you used in part (a) as part of your solution.
+The game should proceed according to the following sequence:
+ The user’s score is set to zero.
+ At the start of every new round the computer generates a random number
+between 1 and 100. This is the secret number that the user is trying to guess.
+ The user is then prompted to enter a guess as shown below.
+Enter your guess:
+ Calculate the difference between the secret number and the user guess.
+ The numbers are then displayed in a meaningful message on a single line as
+shown below.
+Secret number is 55. You guessed 50. Difference is 5.
+ The numbers are compared and the score is updated according the following
+rules:
+o If the user’s guess and the secret number are the same then the score is
+increased by 100 and the message "JACKPOT!!! You score 100 points" is
+displayed.
+o If the user’s guess is within 20 (either side) of the secret number the user’s
+score is increased by 20 and the message "You score 20 points" is displayed.
+o If the user’s guess is more than 30 away from the secret number the user’s
+score is decreased by 30 and the message "You lose 30 points" is displayed.
+ At the end of each round the score is displayed and user is prompted with the
+message “Play again? (Y/N):”
+ The game ends when the user enters anything other than the single letter ‘Y’.
+An example output is shown on the next page. 
+
+
+
+Enter your guess: 35
+Secret number is 31. You guessed 35. Difference is 4.
+You score 20 points
+Your total score is: 20
+Play again? (Y/N): Y
+Enter your guess: 91
+Secret number is 6. You guessed 91. Difference is 85.
+You lose 30 points
+Your total score is: -10
+Play again? (Y/N): Y
+Enter your guess: 54
+Secret number is 54. You guessed 54. Difference is 0.
+JACKPOT!!! You score 100 points
+Your total score is: 90
+Play again? (Y/N): Y
+Enter your guess: 50
+Secret number is 28. You guessed 50. Difference is 22.
+Your total score is: 90
+Play again? (Y/N): N

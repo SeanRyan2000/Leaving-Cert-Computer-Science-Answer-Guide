@@ -1,0 +1,37 @@
+Question:
+Open the program called Question16_A.py from your device. The
+source code is shown below.
+Before making any changes, you should save your working copy of
+the file using the format ExaminationNumberQuestion16_A.py.
+For example, you would save the file as 123456Question16_A.py if
+your Examination Number was 123456.
+Enter your Examination Number in the space provided on line 2 in
+your Python file.
+The program defines a function called guess_game which simulates a guessing
+game.
+When the function is called, the program generates a secret number between 1 and 5
+inclusive. This is stored in a variable called secret_number.
+The program then enters a loop in which the user is prompted to guess the number.
+The user’s guess is stored in the variable user_guess. Every time the user enters a
+guess the program increases the variable guess_count by one. If the user’s guess
+matches the computer’s secret number, the message ‘Congratulations! You win!’ is
+displayed. The loop continues until the user guesses the secret number.
+# Question 16(a)
+# Examination Number:
+from random import randint
+
+def guess_game(max_guesses_allowed):
+
+    secret_number = randint(1, 5)
+    guess_count = 0
+    user_guess = 0
+
+    while (user_guess != secret_number):
+
+        user_guess = int(input("Enter your guess: "))
+        guess_count += 1 #Increase guess_count by 1
+        if user_guess == secret_number:
+            print("Congratulations! You win!")
+
+print("Welcome to the guessing game!")
+guess_game(3)
